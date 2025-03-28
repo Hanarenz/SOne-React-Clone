@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "../../components/Search/Search";
+import Search from "../../components/Search/search";
 import Banner from "../../components/Banner/banner";
 import Menu from "../../components/Menu/menu";
 import Service from "../../components/Services/service";
