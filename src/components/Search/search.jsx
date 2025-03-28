@@ -11,8 +11,8 @@ export default function Search() {
 
   return (
     <div className="relative w-full">
-      <h1 className="bg-orange-600 p-2 w-full text-white text-center text-lg md:text-xl lg:text-2xl font-semibold">
-        ค้นหา
+      <h1 className="bg-orange-600 p-2 w-full text-white text-left text-md md:text-md lg:text-xl">
+        ค้นหายาง
       </h1>
       <div className="relative">
         <img src={bg_searchtype} alt="ค้นหา" className="w-full h-auto object-cover" />
@@ -21,7 +21,7 @@ export default function Search() {
             <div key={index} className="flex flex-col gap-1 mb-1 ml-auto">
               <p className="text-sm md:text-base font-medium ">{field.name}</p>
               <p className="text-xs/6 md:text-xs ">{field.label}</p>
-              <select className="hover:cursor-pointer border border-orange-600 p-1 bg-white text-black w-full ml-auto sm:h-1/3 md:max-h-1/2 sm:text-xs  md:text-sm lg:text-md">
+              <select className="hover:cursor-pointer border border-orange-600 p-1 bg-white text-black w-full ml-auto sm:max-w-1/3 sm:h-1/3 md:max-h-1/2 sm:text-xs  md:text-sm lg:text-md">
                 <option value="">-- เลือก{field.name} --</option>
               </select>
             </div>

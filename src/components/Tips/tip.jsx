@@ -10,7 +10,7 @@ export default function Tip() {
       <div>
         <div className="flex justify-center">
           <img src={SOne_index_tips1} alt="" className="w-auto" />
-          <div className=" bg-[#252525] p-1 w-auto">
+          <div className=" bg-[#252525] p-1 w-auto mb-2 border-b-1 border-t-1 border-r-1 border-orange-600">
             <p className="flex items-center justify-center text-orange-600">
               Safety Tips
             </p>

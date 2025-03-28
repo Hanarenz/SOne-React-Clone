@@ -33,7 +33,7 @@ export default function Banner() {
   };
 
   return (
-    <div className="relative w-full max-w-full">
+    <div className="relative w-full h-auto">
       {/* Banner Image */}
       <div className="relative">
         <img
@@ -43,11 +43,11 @@ export default function Banner() {
         />
 
         {/* Arrow Navigation */}
-        <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10 w-1/3 flex flex-col items-center gap-2 drop-shadow-lg">
+        <div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10 w-1/3  flex flex-col items-center gap-2 drop-shadow-lg">
           <FontAwesomeIcon
             icon={faChevronUp}
-            size="3x"
-            className="p-2 cursor-pointer w-8 md:w-10 lg:w-12 text-white duration-500  hover:text-orange-600"
+            size="sm:w-2x md:w-3x lg:3x "
+            className="p-2 cursor-pointer text-white duration-500  hover:text-orange-600"
             onClick={prevBanner}
           />
           {bannerList.map((banner, index) => (
@@ -65,8 +65,8 @@ export default function Banner() {
           ))}
           <FontAwesomeIcon
             icon={faChevronDown}
-            size="3x"
-            className="p-2 cursor-pointer w-8 md:w-10 lg:w-12 text-white duration-500 hover:text-orange-600 "
+            size="sm:w-2x md:w-3x lg:3x "
+            className="p-2 cursor-pointer text-white duration-500 hover:text-orange-600 "
             onClick={nextBanner}
           />
         </div>

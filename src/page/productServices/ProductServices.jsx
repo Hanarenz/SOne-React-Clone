@@ -25,14 +25,14 @@ export default function ProductServices() {
       <Menu />
 
       {/* Section 2: Services, News & Tips */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="bg-gray-100 p-4 flex flex-col">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+        <div className="bg-gray-100 p-2 flex flex-col">
           <Service />
         </div>
-        <div className="sm:col-span-1 lg:col-span-2 bg-gray-100 p-4 flex flex-col">
+        <div className="sm:col-span-1 lg:col-span-2 bg-gray-100 p-2 flex flex-col">
           <NewEvent />
         </div>
-        <div className="bg-gray-100 p-4 flex flex-col">
+        <div className="bg-gray-100 p-2 flex flex-col">
           <Tip />
         </div>
       </div>

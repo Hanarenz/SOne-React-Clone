@@ -6,10 +6,10 @@ export default function Service() {
 
   return (
     <div>
-      <h1 className="bg-orange-600 text-white p-1 text-center">
+      <h1 className="bg-orange-600 text-white p-2 text-left text-md md:text-md lg:text-xl">
         ค้นหาศูนย์บริการใกล้บ้านคุณ
       </h1>
-      <div className="bg-[#252525] text-white p-4 h-100%">
+      <div className="bg-[#252525] text-white p-2 h-100%">
         {fields.map((label, index) => (
           <div
             key={index}
