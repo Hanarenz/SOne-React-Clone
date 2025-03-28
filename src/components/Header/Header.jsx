@@ -24,7 +24,7 @@ export default function Header() {
     { name: "youtube", default: btyoutube, hover: btyoutube1 },
   ];
   const menuItems = [
-    { name: "Product & Services", path: "/product" },
+    { name: "Product & Services", path: "/" },
     { name: "Promotions", path: "/promotions" },
     { name: "News & Events", path: "/news" },
     { name: "Safety Tips", path: "/safety-tips" },
