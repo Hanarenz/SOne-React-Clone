@@ -21,7 +21,7 @@ export default function Search() {
             <div key={index} className="flex flex-col gap-1 mb-1 ml-auto">
               <p className="text-sm md:text-base font-medium ">{field.name}</p>
               <p className="text-xs/6 md:text-xs ">{field.label}</p>
-              <select className="hover:cursor-pointer border border-orange-600 p-1 bg-white text-black w-full ml-auto sm:max-w-1/3 sm:h-1/3 md:max-h-1/2 sm:text-xs  md:text-sm lg:text-md">
+              <select className="hover:cursor-pointer border border-orange-600 p-1 bg-white text-black w-full ml-auto sm:h-1/3 md:max-h-1/2 sm:text-xs  md:text-sm lg:text-md">
                 <option value="">-- เลือก{field.name} --</option>
               </select>
             </div>

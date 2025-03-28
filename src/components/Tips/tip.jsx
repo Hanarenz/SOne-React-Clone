@@ -23,7 +23,7 @@ export default function Tip() {
         </div>
         <div className="flex items-center justify-around mt-2">
           <p className="text-sm">สมัครรับข่าวสาร</p>
-          <div className="flex ">
+          <div className="flex sm:h-1/3 md:max-h-1/2">
             <input
               type="text"
               placeholder="กรุณาใส่อีเมล์"
