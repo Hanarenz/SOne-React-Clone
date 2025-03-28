@@ -7,7 +7,7 @@ import call from "../../assets/images/SOne_index_call.png";
 export default function Tip() {
   return (
     <div>
-      <div>
+      <div className="w-full">
         <div className="flex justify-center">
           <img src={SOne_index_tips1} alt="" className="w-auto" />
           <div className=" bg-[#252525] p-1 w-auto mb-2 border-b-1 border-t-1 border-r-1 border-orange-600">
@@ -27,7 +27,7 @@ export default function Tip() {
             <input
               type="text"
               placeholder="กรุณาใส่อีเมล์"
-              className="text-sm ml-1 border-orange-600 border-1 h-5"
+              className="text-sm sm:text-xs ml-1 border-orange-600 border-1 h-5"
             />
             <div className="flex items-center bg-black text-white p-1 text-sm h-5 hover:cursor-pointer">
               Go
